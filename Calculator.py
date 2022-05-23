@@ -1,8 +1,8 @@
 loop = True
 while loop == True:
 
-    print("*****************")
-    print("Select operation")
+    print("****************")
+    print("Select an operation")
     print("1.Add")
     print("2.Subtract")
     print("3.Multiply")
@@ -37,3 +37,5 @@ while loop == True:
         if choice == '4':
             result = float(num1) / float(num2)
             print(num1, "/", num2, "=", result)
+
+              
